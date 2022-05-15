@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunj patel</title>
+</head>
+<body>
+
+
+    
+    <div class="container">
+    <div class="lottie">
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_xnutdqn7.json"  background="transparent"  speed="1"  "  loop  autoplay></lottie-player>
+    </div>
+    
+    <nav class="top-right open">
+    
+      <b class="disc l1">
+        <div  style="background: transparent"> <a href="skills.html">Skills</a></div>
+      </b>
+      <b class="disc l2">
+        <div style="background: transparent"><a href="achievements.html">Achievements</a></div>
+      </b>  
+      <b class="disc l3">
+        <div style="background: transparent"><a href="hobbies.html">Hobbies</a></div>
+      </b>
+      <b class="disc l4">
+        <div style="background: transparent"><a href="contact.html">Contact</a></div>
+      </b>
+      <b class="disc l5 toggle">
+        More
+      </b>
+    </nav>
+   <img style="top:5%; left:5%; position:absolute; height: 10%; width: 10%;" src="KUNJ PATEL.jpg" alt="kunj patel logo">
+   
+    <name>KUNJ PATEL</name>
+
+    <ap>Hi,I am kunj patel<br> competitive programmer<br>
+      <br>
+      <br>
+      <br>
+    -> learning new things every day and improving myself every day
+    <br>
+    <br>
+    -> 1st year student
+    <br>
+    <br>
+    -> currently persuing computer engineering from Dharmsinh Desai Univesity </ap>
+    
+    </div>
+
+
+
+  <k style="color: aliceblue; text-align: center; font-family: 'Comfortaa', cursive; font-size: 0.5cm; text-align: center;"> All copyrights reserved @kunj_patel</k>
+
+
+
+
+
+<script>
+    toggle = document.querySelectorAll(".toggle")[0];
+nav = document.querySelectorAll("nav")[0];
+toggle_open_text = 'More';
+toggle_close_text = 'Close';
+
+toggle.addEventListener('click', function() {
+  nav.classList.toggle('open');
+  
+  if (nav.classList.contains('open')) {
+    toggle.innerHTML = toggle_close_text;
+  } else {
+    toggle.innerHTML = toggle_open_text;
+  }
+}, false);
+
+setTimeout(function(){
+  nav.classList.toggle('open'); 
+}, 800);
+
+
+
+</script>
+</body>
+</html>
